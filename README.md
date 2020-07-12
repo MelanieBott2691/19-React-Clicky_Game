@@ -25,10 +25,10 @@
 
 ## Game Screenshots
 * Owl House Theme
-![](/images/owlhouse.png)
+![](assets/images/owlhouse.png)
 
 * Win
-![](./images/won.png)
+![](../images/won.png)
 
 * Lose
-![](lose.png)
+![](public/assets/images/lose.png)
