@@ -2,20 +2,20 @@ import React, { Component } from 'react'
 import Card from './components/Card'
 import Wrapper from './components/Wrapper'
 import Score from './components/Scoreboard'
-import pups from './cards.json'
+import cards from './cards.json'
 import './App.css'
 
 class App extends Component {
-  // Setting this.state.pups to the cards json array
+  // Setting this.state.cards to the cards json array
   state = {
-    pups,
+    cards,
     clickedCardIds: [],
     score: 0,
-    goal: 8,
+    goal: 6,
     status: ''
   }
 
-  //shuffle the pup cards in the browser when clicked
+  //shuffle the cards in the browser when clicked
   shuffleScoreCard = id => {
     let clickedCardIds = this.state.clickedCardIds
 
@@ -23,16 +23,16 @@ class App extends Component {
       this.setState({
         clickedCardIds: [],
         score: 0,
-        status: 'Game Over! You lost. Click to play again!'
+        status: 'Game Over! Try Again! Click to play again!'
       })
       return
     } else {
       clickedCardIds.push(id)
 
-      if (clickedCardIds.length === 8) {
+      if (clickedCardIds.length === 6) {
         this.setState({
-          score: 8,
-          status: 'You Won! Great Job, Smartie! Click to play again!',
+          score: 6,
+          status: 'You Won! You Know Your Stuff! Click to play again!',
           clickedCardIds: []
         })
         console.log('You Win')
@@ -40,15 +40,15 @@ class App extends Component {
       }
 
       this.setState({
-        pups,
+        cards,
         clickedCardIds,
         score: clickedCardIds.length,
         status: ' '
       })
 
-      for (let i = pups.length - 1; i > 0; i--) {
+      for (let i = cards.length - 1; i > 0; i--) {
         let j = Math.floor(Math.random() * (i + 1))
-        ;[pups[i], pups[j]] = [pups[j], pups[i]]
+        ;[cards[i], cards[j]] = [cards[j], cards[i]]
       }
     }
   }
@@ -56,36 +56,23 @@ class App extends Component {
   // Map over this.state.cards and render a Card component for each card object
   render () {
     return (
-      <div className='App'>
-        <header className='App-header'>
-          <h1 className='App-title'>The Clickster</h1>
-          <p className='App-intro'>Try not to click the same image twice!</p>
+      <div className='app'>
+        <header className='header'>
+          <p className='intro'>
+            Click on different Owl House Characters, don't click on the same one
+            twice or you lose!
+          </p>
         </header>
-        <Score total={this.state.score} goal={8} status={this.state.status} />
+        <Score total={this.state.score} goal={6} status={this.state.status} />
         <Wrapper>
-          {this.state.pups.map(puppy => (
+          {this.state.cards.map(owlhouse => (
             <Card
               shuffleScoreCard={this.shuffleScoreCard}
-              id={puppy.id}
-              key={puppy.id}
-              image={puppy.image}
+              id={owlhouse.id}
+              image={owlhouse.image}
             />
           ))}
         </Wrapper>
-        <footer>
-          <p>
-            Designed and built by Heather Mathies. You can find the code
-            <a
-              href='https://github.com/hmathies/Clicky-Game'
-              target='_blank'
-              rel='noopener noreferrer'
-            >
-              {' '}
-              here
-            </a>
-            .
-          </p>
-        </footer>
       </div>
     )
   }
