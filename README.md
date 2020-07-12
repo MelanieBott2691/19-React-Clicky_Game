@@ -1,6 +1,7 @@
 # 19-React-Clicky_Game
 
-### Deployed to Heroku
+### Deployed to GitHub Pages
+- https://melaniebott2691.github.io/19-React-Clicky_Game/
 
 ## Setup of Application
 
