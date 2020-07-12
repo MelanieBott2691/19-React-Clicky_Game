@@ -25,6 +25,7 @@ class App extends Component {
         score: 0,
         status: 'Game Over! Try Again! Click to play again!'
       })
+
       return
     } else {
       clickedCardIds.push(id)

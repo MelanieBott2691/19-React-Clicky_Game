@@ -8,7 +8,6 @@
   box-shadow: 0 3px 6px rgb(62, 61, 61), 0 3px 6px rgb(14, 13, 13);
   text-align: center;
 }
-
 .card > .img-container {
   height: 100%;
   overflow: hidden;
@@ -20,7 +19,6 @@ background: linear-gradient(0deg, rgba(60,12,97,1) 0%, rgba(102,35,184,1) 100%);
 .card > .img-container > img {
   width: 60%
 }
-
 .card > .content {
   padding-left: 1rem;
   padding-right: 1rem;
@@ -31,6 +29,4 @@ img {
   padding: 25px;
   text-align: center;
   vertical-align: middle;
- 
-  
 }
