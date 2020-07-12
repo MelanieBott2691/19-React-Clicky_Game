@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/MelanieBott2691/19-React-Clicky_Game/static/css/main.aee5f370.chunk.css",
-    "main.js": "/MelanieBott2691/19-React-Clicky_Game/static/js/main.0afdf121.chunk.js",
-    "main.js.map": "/MelanieBott2691/19-React-Clicky_Game/static/js/main.0afdf121.chunk.js.map",
-    "runtime-main.js": "/MelanieBott2691/19-React-Clicky_Game/static/js/runtime-main.d8c402f1.js",
-    "runtime-main.js.map": "/MelanieBott2691/19-React-Clicky_Game/static/js/runtime-main.d8c402f1.js.map",
-    "static/js/2.0483c0cc.chunk.js": "/MelanieBott2691/19-React-Clicky_Game/static/js/2.0483c0cc.chunk.js",
-    "static/js/2.0483c0cc.chunk.js.map": "/MelanieBott2691/19-React-Clicky_Game/static/js/2.0483c0cc.chunk.js.map",
-    "index.html": "/MelanieBott2691/19-React-Clicky_Game/index.html",
-    "precache-manifest.bab25f7f0e882c28282e34205067a20a.js": "/MelanieBott2691/19-React-Clicky_Game/precache-manifest.bab25f7f0e882c28282e34205067a20a.js",
-    "service-worker.js": "/MelanieBott2691/19-React-Clicky_Game/service-worker.js",
-    "static/css/main.aee5f370.chunk.css.map": "/MelanieBott2691/19-React-Clicky_Game/static/css/main.aee5f370.chunk.css.map",
-    "static/js/2.0483c0cc.chunk.js.LICENSE.txt": "/MelanieBott2691/19-React-Clicky_Game/static/js/2.0483c0cc.chunk.js.LICENSE.txt"
+    "main.css": "/19-React-Clicky_Game/static/css/main.aee5f370.chunk.css",
+    "main.js": "/19-React-Clicky_Game/static/js/main.0afdf121.chunk.js",
+    "main.js.map": "/19-React-Clicky_Game/static/js/main.0afdf121.chunk.js.map",
+    "runtime-main.js": "/19-React-Clicky_Game/static/js/runtime-main.9396634a.js",
+    "runtime-main.js.map": "/19-React-Clicky_Game/static/js/runtime-main.9396634a.js.map",
+    "static/js/2.0483c0cc.chunk.js": "/19-React-Clicky_Game/static/js/2.0483c0cc.chunk.js",
+    "static/js/2.0483c0cc.chunk.js.map": "/19-React-Clicky_Game/static/js/2.0483c0cc.chunk.js.map",
+    "index.html": "/19-React-Clicky_Game/index.html",
+    "precache-manifest.4a259d78b2ae42d06aca2232a78ebf41.js": "/19-React-Clicky_Game/precache-manifest.4a259d78b2ae42d06aca2232a78ebf41.js",
+    "service-worker.js": "/19-React-Clicky_Game/service-worker.js",
+    "static/css/main.aee5f370.chunk.css.map": "/19-React-Clicky_Game/static/css/main.aee5f370.chunk.css.map",
+    "static/js/2.0483c0cc.chunk.js.LICENSE.txt": "/19-React-Clicky_Game/static/js/2.0483c0cc.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.d8c402f1.js",
+    "static/js/runtime-main.9396634a.js",
     "static/js/2.0483c0cc.chunk.js",
     "static/css/main.aee5f370.chunk.css",
     "static/js/main.0afdf121.chunk.js"
