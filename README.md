@@ -22,3 +22,13 @@
 - The application keeps track of the user click to keep score. It will increment with each correct click. The score will be reset to 0 if the same image is clicked more than once.
 - With each click the image will shuffle in a random order.
 - Once the user's score is reset to 0 with an incorrect guess, the game will restart.
+
+## Game Screenshots
+* Owl House Theme
+![](/images/owlhouse.png)
+
+* Win
+![](./images/won.png)
+
+* Lose
+![](lose.png)
