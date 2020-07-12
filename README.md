@@ -24,11 +24,11 @@
 - Once the user's score is reset to 0 with an incorrect guess, the game will restart.
 
 ## Game Screenshots
-* Owl House Theme
+- Owl House Theme
 ![](public/assets/images/owlhouse.png)
 
-* Win
+- Win
 ![](public/assets/images/won.png)
 
-* Lose
+- Lose
 ![](public/assets/images/lose.png)
